@@ -1,0 +1,50 @@
+{
+	"debug_forward": false,
+	"ph": {
+		"activate": true,
+		"client": true,
+		"hopping_period": 20,
+		"max_buffer": 100,
+		"keymap": {
+			"192.169.100.2": "I have a special secret,",
+			"192.169.100.3": "Whenever I’m online",
+			"192.169.100.4": "I don’t share with others\nThe things that are just mine.",
+			"fc00:0:1:1::2": "I have a special secret,",
+			"fc00:0:1:1::3": "Whenever I’m online",
+			"fc00:0:1:1::4": "I don’t share with others\nThe things that are just mine.",
+			"192.169.100.10": "I have a special secret,",
+			"192.169.100.11": "Whenever I’m online",
+			"192.169.100.12": "I don’t share with others\nThe things that are just mine.",
+			"192.169.100.13": "I have a special secret,",
+			"192.169.100.14": "Whenever I’m online",
+			"192.169.100.15": "I don’t share with others\nThe things that are just mine.",
+			"192.169.100.16": "I have a special secret,",
+			"192.169.100.17": "Whenever I’m online",
+			"192.169.100.18": "I don’t share with others\nThe things that are just mine.",
+			"192.169.100.19": "I have a special secret,",
+			"fc00:0:1:1::10": "I have a special secret,",
+			"fc00:0:1:1::11": "Whenever I’m online",
+			"fc00:0:1:1::12": "I don’t share with others\nThe things that are just mine.",
+			"fc00:0:1:1::13": "I have a special secret,",
+			"fc00:0:1:1::14": "Whenever I’m online",
+			"fc00:0:1:1::15": "I don’t share with others\nThe things that are just mine.",
+			"fc00:0:1:1::16": "I have a special secret,",
+			"fc00:0:1:1::17": "Whenever I’m online",
+			"fc00:0:1:1::18": "I don’t share with others\nThe things that are just mine.",
+			"fc00:0:1:1::19": "I have a special secret,"
+		},
+		"ph_subnets_server": [
+			"192.168.0.0/16"
+		]
+	},
+	"nas": {
+		"activate": false
+	},
+	"file_logging": false,
+	"debug_output": false,
+	"whitelist": [
+		"192.168.102.3",
+        "fc00:0:0:2::3",
+        "ff02::/16"
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"debug_forward": false,
+	"ph": {
+		"activate": true,
+		"client": false,
+		"hopping_period": 20,
+		"max_buffer": 100,
+		"keymap": {
+			"192.169.100.2": "I have a special secret,",
+			"192.169.100.3": "Whenever I’m online",
+			"192.169.100.4": "I don’t share with others\nThe things that are just mine.",
+			"fc00:0:1:1::2": "I have a special secret,",
+			"fc00:0:1:1::3": "Whenever I’m online",
+			"fc00:0:1:1::4": "I don’t share with others\nThe things that are just mine.",
+			"192.169.100.10": "I have a special secret,",
+			"192.169.100.11": "Whenever I’m online",
+			"192.169.100.12": "I don’t share with others\nThe things that are just mine.",
+			"192.169.100.13": "I have a special secret,",
+			"192.169.100.14": "Whenever I’m online",
+			"192.169.100.15": "I don’t share with others\nThe things that are just mine.",
+			"192.169.100.16": "I have a special secret,",
+			"192.169.100.17": "Whenever I’m online",
+			"192.169.100.18": "I don’t share with others\nThe things that are just mine.",
+			"192.169.100.19": "I have a special secret,",
+			"fc00:0:1:1::10": "I have a special secret,",
+			"fc00:0:1:1::11": "Whenever I’m online",
+			"fc00:0:1:1::12": "I don’t share with others\nThe things that are just mine.",
+			"fc00:0:1:1::13": "I have a special secret,",
+			"fc00:0:1:1::14": "Whenever I’m online",
+			"fc00:0:1:1::15": "I don’t share with others\nThe things that are just mine.",
+			"fc00:0:1:1::16": "I have a special secret,",
+			"fc00:0:1:1::17": "Whenever I’m online",
+			"fc00:0:1:1::18": "I don’t share with others\nThe things that are just mine.",
+			"fc00:0:1:1::19": "I have a special secret,"
+		},
+		"ph_subnets_server": [
+			"192.168.0.0/16"
+		]
+	},
+	"nas": {
+		"activate": false,
+		"hopping_period": 30,
+		"receiver": [],
+		"rest_iface": "192.168.110.2",
+		"dns_ttl": 3,
+		"honeypot": {
+			"activate": false,
+			"v4_address": "192.168.102.8",
+			"v6_address": "fc00:0:0:2::8"
+		},
+		"tracking": {
+			"activate": true,
+			"continue_all": true,
+			"dynamic_port_priority": {
+				"continue": [
+					194
+				],
+				"priority": {
+					"22": "H",
+					"80": "L",
+					"20": "H",
+					"21": "H",
+					"115": "M"
+				},
+				"priority_def": {
+					"L": 0,
+					"M": 1,
+					"H": 2
+				}
+			}
+		}
+	},
+	"file_logging": false,
+	"debug_output": false,
+	"whitelist": [
+		"192.168.102.3",
+        "fc00:0:0:2::3",
+        "ff02::/16"
+	]
+
+}

@@ -1,0 +1,8 @@
+scapy
+flask
+flask_restful
+netaddr
+requests
+fnfqueue
+netifaces
+readerwriterlock
