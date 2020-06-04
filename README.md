@@ -10,8 +10,9 @@ Richard Poschinger
 
 Distributed under the MIT license.
 
-## Usage
-TODO
+## Structure
+* /MTG/ Moving Target Gateway (Relevant for NAS / PH)
+* /MTC/ Moving Target Controller (Relevant for NAS)
 
 ## Legal Advice
 THIS REPOSITORY AND EVERY SCRIPT INCLUDED IN IT IS FOR EDUCATIONAL 
