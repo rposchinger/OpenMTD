@@ -1,5 +1,5 @@
 # OpenMTD
-OpenMTD - Moving Target Defense Research Platform
+OpenMTD - A framework for efficient MTD evaluation
 
 ## Author
 Richard Poschinger 
