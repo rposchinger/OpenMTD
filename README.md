@@ -14,6 +14,9 @@ Distributed under the MIT license.
 * /MTG/ Moving Target Gateway (Relevant for NAS / PH)
 * /MTC/ Moving Target Controller (Relevant for NAS)
 
+## Virtualized Testbed
+The virtualized GNS3 testbed will be available soon.
+
 ## Legal Advice
 THIS REPOSITORY AND EVERY SCRIPT INCLUDED IN IT IS FOR EDUCATIONAL 
 AND TESTING PURPOSES ONLY. THE OWNER NOR ANY CONTRIBUTOR IS NOT RESPONSIBLE
