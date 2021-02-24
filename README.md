@@ -15,7 +15,7 @@ Distributed under the MIT license.
 * /MTC/ Moving Target Controller (Relevant for NAS)
 
 ## Virtualized Testbed
-The virtualized GNS3 testbed will be available soon.
+Please contact [Nils Rodday](https://www.unibw.de/technische-informatik/mitarbeiter/wissenschaftliche-mitarbeiter-innen/m-sc-nils-rodday) (UniBw M)
 
 ## Legal Advice
 THIS REPOSITORY AND EVERY SCRIPT INCLUDED IN IT IS FOR EDUCATIONAL 
