@@ -4,8 +4,6 @@
 ## Author
 Richard Poschinger 
 
-([poschinger.net](https://poschinger.net))
-
 ## License
 
 Distributed under the MIT license.
