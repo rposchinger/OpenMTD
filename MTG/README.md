@@ -6,7 +6,7 @@
 
 1. Dependencies:
   * Install Python3 or PyPy
-  * Install additional dependencies for netfilterqueue: apt-get install build-essential python-dev libnetfilter-queue-dev
+  * Install additional dependencies for netfilterqueue: apt-get install build-essential python-dev libnetfilter-queue-dev iptables-persistent
   * Install packages of requirements.txt
 2. Set PreRouting IPTable rules for IPv4 and IPv6. Forward every package to the queue (e.g. 1 = in = public interface, 2 = out = private interface). Examples: /conf/rules.v*.txt
 Using PreRouting Rules, to route to link local or remote addresses after address manipulation. 
